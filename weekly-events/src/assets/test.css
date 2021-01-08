@@ -1,0 +1,138 @@
+img {
+  width: 200px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;  /*was 25px*/
+}
+
+body{
+  background-color: rgba(255, 0, 0, 0.4);
+  background-image: url(./background.webp);
+  background-size: cover;
+
+}
+.breakfast-style{
+
+float:left;
+text-align: center;
+width:33%;
+/*margin-left:5%;/*was 75px */
+margin-top: 40px;
+}
+.lunch-style{
+  float: left;
+width:33%;
+margin-top: 40px;
+text-align: center;
+/*left:50%;
+position:absolute;
+transform: translateX(-50%);*/
+}
+/*text-align: center;
+margin-right: 425px;
+margin-left:400px;*/
+.dinner-style{
+text-align: center;
+float:right;
+width:33%;
+margin-top: 40px;
+/*margin-right: 5%;/*was75px*/
+
+}
+@font-face {
+    font-family: 'dancing_scriptregular';
+    src: url('./dancingscript-variablefont_wght-webfont.woff2') format('woff2'),
+         url('./dancingscript-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 {
+  font-style: oblique;
+  text-decoration: underline;
+  font-family: fantasy;
+  color: #993366;
+  font-size: 50px;
+
+}
+ul{
+  list-style-type: circle;
+  list-style-position: inside;
+  color: #CCFFFF;
+  text-align: center;
+  font-size: 30px;
+  transform: translateX(-5%);
+  /*transform: translateX(+25%);*/
+
+}
+/*ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  color: #CCFFFF;
+  text-align: left;
+  font-size: 30px;
+  /*transform: translateX(+25%);
+  width: 33%;
+  float: left;
+
+}*/
+
+/*ul li ::before {
+  content: "\25EF";  /* Add content: \2022 is the CSS Code/unicode for a bullet
+  color: red; /* Change the color
+  font-weight: bold; /* If you want it to be bold
+  display: inline-block; /* Needed to add space between the bullet and the text
+  width: 1em; /* Also needed for space (tweak if needed)
+  margin-left: -1em; /* Also needed for space (tweak if needed)
+}
+*/
+h2 {
+  position:absolute;
+  transform: translateY(-175%);
+  font-family: 'dancing_scriptregular';
+  font-size: 525%;/*was 80px*/
+  left: 10%;
+  color: #993366;
+}
+@media screen and (max-width: 800px) {
+  .breakfast-style {
+    float: none;
+    width: 100%;
+  }
+  .lunch-style{
+    float:none;
+    width: 100%;
+  }
+  .dinner-style {
+    float:none;
+    width:100%;
+  }
+  h2 {
+    font-size: 300%;
+    transform: translateY(-250%);
+    left: 5%;
+  }
+
+}
+/*
+
+.mon-style {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+<.mon-style src="download.jpg" alt="Paris">
+.mon-style {
+  border: 1px solid gray;
+  padding: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: lightblue;
+  color: black;
+}
+<link rel="icon" type="image/x-icon" href="favicon.ico">*/
